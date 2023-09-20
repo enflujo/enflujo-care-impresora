@@ -1,0 +1,30 @@
+{
+  "name": "enflujo-care-impresora",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./programa.ts"
+  },
+  "devDependencies": {
+    "@types/get-pixels": "^3.3.2",
+    "@types/ndarray": "^1.0.11",
+    "@types/node": "^20.4.5",
+    "@types/qr-image": "^3.2.6",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "escpos": "^3.0.0-alpha.6",
+    "get-pixels": "^3.3.3",
+    "iconv-lite": "^0.6.3",
+    "mutable-buffer": "^4.0.2",
+    "ndarray": "^1.0.19",
+    "qr-image": "^3.2.0",
+    "serialport": "^11.0.1",
+    "usb": "^2.9.0"
+  }
+}
