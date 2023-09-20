@@ -10,7 +10,9 @@
     "aplicaciones/*"
   ],
   "scripts": {
-    "dev": "concurrently \"yarn workspace servidor dev\"  \"yarn workspace www dev\" "
+    "dev": "concurrently \"yarn workspace servidor dev\"  \"yarn workspace www dev\" ",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write --list-different ."
   },
   "devDependencies": {
     "concurrently": "^8.2.1",
